@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>    
+    <category name="appconfig">
+        <property name="LB_NODE" value="NODE_1"/>
+        <property name="maxThread" value="100"/>
+        <property name="DE_BUG" value="1"/>
+        <property name="MASTER" value="0"/>
+        <property name="SV_ALERT" value="0"/>
+        <property name="NODE_DEV" value="0"/>
+        <property name="BUID_CDR" value="0"/>
+        <property name="PATH_CACHE_LOG_MSG_BR_INCOME" value="../log/BR_LOG_INCOME"/>
+        <property name="PATH_CACHE_LOG_MSG_BR_SUBMIT" value="../log/BR_LOG_SUBMIT"/>
+        <property name="PATH_CACHE_BRAND_SEND" value="../log/BR_QUEUE_SEND"/>
+        <property name="TPS_LOG" value="200"/>
+    </category>
+    <category name="EMAIL">
+        <property name="SMTP_MAIL" value="alert@ahp.vn" />
+        <property name="SMTP_PASS" value="ahp@alert.vn" />
+        <property name="MAIL_HOST" value="mail.ahp.vn" />
+        <property name="MAIL_DEBUG" value="false" />
+    </category>
+    <category name="webService">
+        <property name="contextPath" value="/service" />
+        <property name="port" value="9981" />
+    </category>
+    <category name="memcached" >
+        <property name="HOST" value="127.0.0.1:11211" />
+        <property name="POOLNAME" value="BRAND" />
+        <property name="WEIGHTS" value="3,3" />
+        <property name="INIT_CONN" value="50" />
+        <property name="MIN_CONN" value="50" />
+        <property name="MAX_CONN" value="1000" />
+        <property name="MAINT_SLEEP" value="30" />
+        <property name="NAGLE" value="0" />
+        <!-- MAX_IDLE= 5 * 60 * 1000-->
+        <property name="MAX_IDLE" value="300000" />
+        <property name="SOCKET_TO" value="3000" />
+        <property name="SOCKET_CONNECT_TO" value="0" />
+        <property name="ALIVECHECK" value="0" />
+    </category>
+    <category name="smppSever">
+        <property name="SMPP_SV_PORT" value="6677" />
+        <property name="SMPP_SV_PROCESSOR_DEGREE" value="25" />
+        <property name="SMPP_SV_MAX_WAIT_BIND" value="15" />
+    </category>
+    <category name="smpp_South">
+        <property name="SOUTH_IP" value="api-01.worldsms.vn" />
+        <property name="SOUTH_IP_BAK" value="api-02.worldsms.vn" />
+        <property name="SOUTH_PORT" value="9696" />
+        <property name="SOUTH_USER" value="htcbank" />
+        <property name="SOUTH_PASS" value="dB57vP3g" />
+    </category>
+    <category name="smppVasViettel">
+        <property name="VAS_VT_IP" value="125.235.40.125" />
+        <property name="VAS_VT_PORT" value="9988" />
+        <property name="VAS_VT_USER" value="HTC" />
+        <property name="VAS_VT_PASS" value="123456a@" />
+    </category>
+</properties>
+

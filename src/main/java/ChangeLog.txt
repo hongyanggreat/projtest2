@@ -1,0 +1,15 @@
+1. Hướng MBF qua Netviet    ==> OK
+2. Hướng MBF_VASVTE         ==> OK
+3. Hướng MFS_CMC            ==> OK
+4. Hướng HTC_SMS            ==> OK
+5. Hướng HNK                ==> OK
+6. Hướng HTC_CMC            ==> Kênh đang khóa
+7. SHOP_ONE                 ==> Kênh đang khóa
+8. Hướng VINAPHONE - Anh Duc==> Kênh Proxy Không chạy
+9. Hướng VNPT_MEDIA         ==> OK
+10.Hướng VI_HAT             ==> Ko Co Nhan Nao
+11.Hướng ANTIT              ==> Ko Co Nhan Nao
+12.Hướng VMG                ==> OK
+13.Hướng VIVAS              ==> OK
+14.Hướng HTC -VAS_VT_WS     ==> OK
+15.Hướng MOBI_SV            ==> Chưa Chạy
